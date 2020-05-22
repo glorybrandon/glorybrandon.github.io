@@ -1,0 +1,15 @@
+h1 {
+  color: #ffe6ff;
+  text-align: center;
+  font-size: 90px; }
+
+h2 {
+  color: #ffe6ff;
+  text-align: center;
+  font-size: 60px; }
+
+h3 {
+  color: #ffe6ff;
+  font-size: 40px; }
+
+/*# sourceMappingURL=style.map */

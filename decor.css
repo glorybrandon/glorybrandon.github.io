@@ -1,0 +1,55 @@
+/* this is main stylesheet  */
+/* used pseudo class selector */
+h4:hover{
+  /* on hoverung color will change */
+            color:  #0066ff;
+         }
+h2:hover{
+             color:   #66ffff;
+        }
+
+
+h4{
+   color:#ff0066 ;
+   font-size:40px;
+}
+h5{
+   color: #ffff99;
+   font-size: 50px;
+   text-align: center;
+}
+/* used css properties */
+body{
+  margin-left: 20px;
+  background-color: black;
+  font-family: georgia;
+  color:white;
+  font-size: 25px;
+  }
+/* used class attribute */
+.boldie{
+    font-style: oblique;
+    font-weight: bold;
+  }
+img{
+border:20px solid black
+}
+/* used container class  */
+.container{
+          display: flex;
+          flex-wrap: wrap;
+         }
+         /* used child selector */
+.container>div{
+               background-color: white;
+               font-size: 20px;
+               border-radius: 20%;
+               margin: 20px;
+               padding:20px;
+               width: auto;
+             }
+
+  input[type=text]{
+background-color: red;
+
+  }

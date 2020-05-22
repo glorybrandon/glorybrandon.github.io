@@ -1,0 +1,48 @@
+
+// here variable is used
+$coled:#ffe6ff;
+// multiple element selector
+h1,h2{
+  color: $coled;
+  text-align: center;
+  }
+h1{
+  font-size: 90px;
+}
+h2{
+   font-size: 60px;
+}
+h3{
+   color: $coled;
+   font-size:40px;
+   }
+// this is example of nesting
+#middle{
+  font-size:35px;
+
+     #nest{
+        font-size: 30px;
+
+               #nestie{
+                   font-size: 25px;
+                      }
+          }
+
+       }
+       // used inheritance
+%message{
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px;
+}
+.del{
+  @extend %message;
+  background-color: gray;
+}
+.ren{
+    @extend %message;
+    background-color: white;
+}

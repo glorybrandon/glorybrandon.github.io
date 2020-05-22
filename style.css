@@ -1,0 +1,36 @@
+h1, h2 {
+  color: #ffe6ff;
+  text-align: center; }
+
+h1 {
+  font-size: 90px; }
+
+h2 {
+  font-size: 60px; }
+
+h3 {
+  color: #ffe6ff;
+  font-size: 40px; }
+
+#middle {
+  font-size: 35px; }
+  #middle #nest {
+    font-size: 30px; }
+    #middle #nest #nestie {
+      font-size: 25px; }
+
+.del, .ren {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px; }
+
+.del {
+  background-color: gray; }
+
+.ren {
+  background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
